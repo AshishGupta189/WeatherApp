@@ -1,0 +1,40 @@
+#container{
+    width: 90%;
+    margin: auto;
+}
+#search_div{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+#search_btn{
+    background-color: teal;
+    color: white;
+    width: 10%;
+    height: 40px;
+    font-weight: bolder;
+    font-size: large;
+}
+#search_box{
+    height: 40px;
+    width: 20%;
+    border-radius: 8px;
+}
+#details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+img{
+    width: 100%;
+    height: 60px;
+}
+#weekly{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    text-align: center;
+    margin-top: 5%;
+}
+#weekly>div{
+    border: 2px solid black;
+}
